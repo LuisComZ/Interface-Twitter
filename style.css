@@ -15,7 +15,9 @@ body {
 }
 
 .cabecalho__logo {
+  margin-top: 50px;
   margin-bottom: 50px;
+  border-top: 20px;
 }
 
 .cabecalho__logo figcaption {
@@ -28,6 +30,7 @@ body {
 }
 
 .cabecalho__menuItem img {
+  margin-right: 5px;
   max-width: 26px;
 }
 
@@ -37,8 +40,13 @@ body {
   font-size: 22px;
 }
 
+.cabecalho__menuItem a:hover {
+  color: #1da1f2;
+}
+
 /* Conteúdo principal */
 .conteudoPrincipal {
+  margin-top: 50px;
   flex-basis: 70%;
   border-left: 1px solid #e7ecf0;
   border-right: 1px solid #e7ecf0;
@@ -70,6 +78,11 @@ body {
   padding: 8px 20px;
   color: white;
   border-radius: 15px;
+}
+
+.conteudoPrincipal__listaTweets {
+  display: flex;
+  flex-flow: column-reverse nowrap;
 }
 
 .conteudoPrincipal__tweet {
